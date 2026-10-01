@@ -2,7 +2,7 @@
 
 # Giới thiệu
 - Bạn không còn xa lạ gì về requests trong các công cụ của mình nhưng nếu dùng requests thì tốc độ lại tương đối kém so với socket và các tầng thấp, requests chúng vốn được tạo lên từ urllib3 mà nó dùng chính python để làm việc lên theo góc nào đó nó vẫn chậm.
-- Ngay tại đây tôi đem đến giải pháp xử lý nhanh hơn, ít tốn tài nguyên và tạo ra các xử lý nhanh chóng như cái tên vậy """SR""".
+- Ngay tại đây tôi đem đến giải pháp xử lý nhanh hơn, ít tốn tài nguyên và tạo ra các xử lý nhanh chóng như cái tên vậy ```SR```.
 - Thư viện này được tôi xây và nấu trên nền ssl sẵn có và cách dùng như requests để cảm thấy quen thuộc thay vì phải làm quen mới hoặc tự dùng ssl và tự xử lý thì giờ tôi sẽ xử lý giúp bạn, nhằm mục đích nhanh chóng ít call nhiều điểm tránh dùng CPU và MEMORY nhiều.
 - Tôi sẽ đẩy mọi phần xử lý về C-Extention để nó tạo ra hiệu năng cũng như đem lại tốc độ xử lý nhanh chóng, hiệu quả, đây luôn là giải pháp tôi hướng tới để nâng cấp trải nhiệm, giúp gần nhất tốc độ vật lí, tuy nhiên phải dõ rằng server phản hồi và tốc độ cũng phải có giới hạn của nó việc tôi làm chỉ giải quyết con số nhỏ.
 
